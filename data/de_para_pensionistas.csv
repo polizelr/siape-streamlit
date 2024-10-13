@@ -1,31 +1,31 @@
-Nome Lógico;Nome Físico;Tipo de Dado;Descrição
-Identificador Pessoa;identificador_pessoa;int;Número que identifica unicamente o pensionista.
-Nome Pessoa;nome_pessoa;string;Nome completo do pensionista.
-Numero CPF;numero_cpf;string;CPF (com máscara) do pensionista.
-Numero Matricula;numero_matricula;string;Matrícula (com máscara) do pensionista.
-Numero CPF Representante Legal;numero_cpf_representante_legal;string;CPF (com máscara) de eventual representante legal do pensionista, se houver.
-Nome Representante Legal;nome_representante_legal;string;Nome completo de eventual representante legal pensionista, se houver.
-Numero CPF Instituidor Pensao;numero_cpf_instituidor_pensao;string;CPF (com máscara) do instituidor da pensão do pensionista.
-Nome Instituidor Pensao;nome_instituidor_pensao;string;Nome completo do instituidor da pensão do pensionista.
-Codigo Tipo Pensao;codigo_tipo_pensao;int;Código do Tipo de Pensão. 
-Nome Tipo Pensao;nome_tipo_pensao;string;Descrição do Tipo de Pensão. Exemplos: (Ex) conjuge / (Ex) companheiro (a) / Viuvo (a), Filho (a) / Menor sob guarda / Enteado (a).
-Data Inicio Pensao;data_inicio_pensao;date;Data de início da pensão.
-Nome Cargo Instituidor Pensao;nome_cargo_instituidor_pensao;string;Descrição do cargo ocupado pelo instituidor da pensão quando em atividade.
-Codigo Unidade Organizacional Lotacao Instituidor Pensao;codigo_unidade_organizacional_lotacao_instituidor_pensao;bigint;Código da unidade organizacional onde o instituidor da pensão era lotado quando em atividade.
-Nome Unidade Organizacional Lotacao Instituidor Pensao;nome_unidade_organizacional_lotacao_instituidor_pensao;string;Nome da unidade organizacional onde o instituidor da pensão era lotado quando em atividade.
-Codigo Orgao Lotacao Instituidor Pensao;codigo_orgao_lotacao_instituidor_pensao;int;Código do órgão onde o instituidor da pensão era lotado quando em atividade.
-Nome Orgao Lotacao Instituidor Pensao;nome_orgao_lotacao_instituidor_pensao;string;Nome do órgão onde o instituidor da pensão era lotado quando em atividade.
-Codigo Orgao Superior Lotacao Instituidor Pensao;codigo_orgao_superior_lotacao_instituidor_pensao;int;Código do órgão superior onde o instituidor da pensão era lotado quando em atividade.
-Nome Orgao Superior Lotacao Instituidor Pensao;nome_orgao_superior_lotacao_instituidor_pensao;string;Nome do órgão superior onde o instituidor da pensão era lotado quando em atividade.
-Codigo Tipo Vinculo;codigo_tipo_vinculo;int;7 - Pensão Civil, 8 - Pensão Militar.
-Nome Tipo Vinculo;nome_tipo_vinculo;string;Descrição dos tipos de vínculo.
-Nome Situacao Vinculo;nome_situacao_vinculo;string;Situação do vínculo detalhando o seu tipo. Exemplos: BENEF.INDENIZ.ANS46, BENEF.INDENIZ.ANS47, BENEFICIARIO PENSAO.
-Nome Regime Juridico Instituidor Pensao;nome_regime_juridico_instituidor_pensao;string;Regime Jurídico do instituidor da pensão quando em atividade. Exemplos: Regime Jurídico Único, Consolidação das Leis do Trabalho, Regime Militar.
-Nome Jornada Trabalho Instituidor Pensao;nome_jornada_trabalho_instituidor_pensao;string;Jornada semanal de trabalho do instituidor da pensão quando em atividade.
-Data Ingresso Cargo Funcao Instituidor Pensao;data_ingresso_cargo_funcao_instituidor_pensao;date;Data de ingresso do instituidor da pensão no cargo ou função da atividade.
-Data Ingresso Orgao  Instituidor Pensao;data_ingresso_orgao_instituidor_pensao;date;Data de ingresso do instituidor da pensão no órgão.
-Nome Documento Ingresso Servico Publico  Instituidor Pensao;nome_documento_ingresso_servico_publico_instituidor_pensao;string;Documento de ingresso do instituidor da pensão no serviço público.
-Data Diploma Ingresso Servico Publico  Instituidor Pensao;data_diploma_ingresso_servico_publico_instituidor_pensao;date;Data do diploma de ingresso do instituidor da pensão no serviço público.
-Codigo Diploma Ingresso Orgao Instituidor Pensao;codigo_diploma_ingresso_orgao_instituidor_pensao;string;Diploma de ingresso do instituidor da pensão no órgão.
-Codigo Diploma Ingresso Servico Publico  Instituidor Pensao;codigo_diploma_ingresso_servico_publico_instituidor_pensao;string;Diploma de ingresso do instituidor da pensão no serviço público.
-Ano Mes;ano_mes;int;Ano e mês de referência dos dados.
+ ;Nome Lógico;Nome Físico;Tipo de Dado;Descrição
+PK;Numero CPF;numero_cpf;string;CPF (com máscara) do pensionista.
+ ;Identificador Pessoa;identificador_pessoa;int;Número que identifica unicamente o pensionista.
+ ;Nome Pessoa;nome_pessoa;string;Nome completo do pensionista.
+ ;Numero Matricula;numero_matricula;string;Matrícula (com máscara) do pensionista.
+ ;Numero CPF Representante Legal;numero_cpf_representante_legal;string;CPF (com máscara) de eventual representante legal do pensionista, se houver.
+ ;Nome Representante Legal;nome_representante_legal;string;Nome completo de eventual representante legal pensionista, se houver.
+ ;Numero CPF Instituidor Pensao;numero_cpf_instituidor_pensao;string;CPF (com máscara) do instituidor da pensão do pensionista.
+ ;Nome Instituidor Pensao;nome_instituidor_pensao;string;Nome completo do instituidor da pensão do pensionista.
+ ;Codigo Tipo Pensao;codigo_tipo_pensao;int;Código do Tipo de Pensão. 
+ ;Nome Tipo Pensao;nome_tipo_pensao;string;Descrição do Tipo de Pensão. Exemplos: (Ex) conjuge / (Ex) companheiro (a) / Viuvo (a), Filho (a) / Menor sob guarda / Enteado (a).
+ ;Data Inicio Pensao;data_inicio_pensao;date;Data de início da pensão.
+ ;Nome Cargo Instituidor Pensao;nome_cargo_instituidor_pensao;string;Descrição do cargo ocupado pelo instituidor da pensão quando em atividade.
+ ;Codigo Unidade Organizacional Lotacao Instituidor Pensao;codigo_unidade_organizacional_lotacao_instituidor_pensao;bigint;Código da unidade organizacional onde o instituidor da pensão era lotado quando em atividade.
+ ;Nome Unidade Organizacional Lotacao Instituidor Pensao;nome_unidade_organizacional_lotacao_instituidor_pensao;string;Nome da unidade organizacional onde o instituidor da pensão era lotado quando em atividade.
+ ;Codigo Orgao Lotacao Instituidor Pensao;codigo_orgao_lotacao_instituidor_pensao;int;Código do órgão onde o instituidor da pensão era lotado quando em atividade.
+ ;Nome Orgao Lotacao Instituidor Pensao;nome_orgao_lotacao_instituidor_pensao;string;Nome do órgão onde o instituidor da pensão era lotado quando em atividade.
+ ;Codigo Orgao Superior Lotacao Instituidor Pensao;codigo_orgao_superior_lotacao_instituidor_pensao;int;Código do órgão superior onde o instituidor da pensão era lotado quando em atividade.
+ ;Nome Orgao Superior Lotacao Instituidor Pensao;nome_orgao_superior_lotacao_instituidor_pensao;string;Nome do órgão superior onde o instituidor da pensão era lotado quando em atividade.
+ ;Codigo Tipo Vinculo;codigo_tipo_vinculo;int;7 - Pensão Civil, 8 - Pensão Militar.
+ ;Nome Tipo Vinculo;nome_tipo_vinculo;string;Descrição dos tipos de vínculo.
+ ;Nome Situacao Vinculo;nome_situacao_vinculo;string;Situação do vínculo detalhando o seu tipo. Exemplos: BENEF.INDENIZ.ANS46, BENEF.INDENIZ.ANS47, BENEFICIARIO PENSAO.
+ ;Nome Regime Juridico Instituidor Pensao;nome_regime_juridico_instituidor_pensao;string;Regime Jurídico do instituidor da pensão quando em atividade. Exemplos: Regime Jurídico Único, Consolidação das Leis do Trabalho, Regime Militar.
+ ;Nome Jornada Trabalho Instituidor Pensao;nome_jornada_trabalho_instituidor_pensao;string;Jornada semanal de trabalho do instituidor da pensão quando em atividade.
+ ;Data Ingresso Cargo Funcao Instituidor Pensao;data_ingresso_cargo_funcao_instituidor_pensao;date;Data de ingresso do instituidor da pensão no cargo ou função da atividade.
+ ;Data Ingresso Orgao  Instituidor Pensao;data_ingresso_orgao_instituidor_pensao;date;Data de ingresso do instituidor da pensão no órgão.
+ ;Nome Documento Ingresso Servico Publico  Instituidor Pensao;nome_documento_ingresso_servico_publico_instituidor_pensao;string;Documento de ingresso do instituidor da pensão no serviço público.
+ ;Data Diploma Ingresso Servico Publico  Instituidor Pensao;data_diploma_ingresso_servico_publico_instituidor_pensao;date;Data do diploma de ingresso do instituidor da pensão no serviço público.
+ ;Codigo Diploma Ingresso Orgao Instituidor Pensao;codigo_diploma_ingresso_orgao_instituidor_pensao;string;Diploma de ingresso do instituidor da pensão no órgão.
+ ;Codigo Diploma Ingresso Servico Publico  Instituidor Pensao;codigo_diploma_ingresso_servico_publico_instituidor_pensao;string;Diploma de ingresso do instituidor da pensão no serviço público.
+ ;Ano Mes;ano_mes;int;Ano e mês de referência dos dados.

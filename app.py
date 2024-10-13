@@ -1,13 +1,18 @@
 import streamlit as st
 import pandas as pd
 
+
+st.set_page_config(page_title="Catálogo")
+
 st.title('Catálogo de Dados')
 
 
-tab0, tab1 = st.tabs(["Tabelas", "Informações Técnicas"])
+tab0, tab1 = st.tabs(["Tabelas", " "])
 
 
 with tab0:
+
+  st.markdown("**Código Fonte:** *https://github.com/polizelr/case_SIAPE/tree/feature/SIAPE*")
 
   st.markdown("## Servidor")
 
@@ -59,13 +64,3 @@ with tab0:
 
   df_remuneracao = pd.read_csv('data/de_para_remuneracao.csv', sep=";")
   st.dataframe(df_remuneracao, 100000, hide_index=True)
-
-
-
- 
-with tab1:
-
-  st.markdown("### Introdução")
-  st.markdown("Esta documentação apresenta a estrutura e as funcionalidades do projeto desenvolvido para os times de Modelagem de Crédito e Políticas de Crédito do PicPay, utilizando dados de remuneração de servidores, aposentados e pensionistas. Os dados brutos são obtidos através da API do SIAPE no Portal da Transparência. O projeto foi concebido para entregar uma base robusta, automatizada e pronta para consumo, facilitando o trabalho dos times envolvidos e otimizando a análise e a tomada de decisão baseada em dados.")
-
-# tab1 ---------------------------------------------------------

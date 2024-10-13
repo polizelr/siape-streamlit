@@ -1,42 +1,42 @@
-Nome Lógico;Nome Físico;Tipo de Dado;Descrição
-Identificador Pessoa;identificador_pessoa;int;Número que identifica unicamente um servidor.
-Nome Pessoa;nome_pessoa;string;Nome completo do servidor.
-Numero CPF;numero_cpf;string;CPF (com máscara) do servidor.
-Numero Matricula;numero_matricula;string;Matrícula (com máscara) do servidor.
-Nome Cargo;nome_cargo;string;Descrição do cargo ocupado pelo servidor.
-Codigo Classe Cargo;codigo_classe_cargo;string;	Classe do cargo ocupado pelo servidor.
-Codigo Padrao Cargo;codigo_padrao_cargo;string;Padrão do cargo ocupado pelo servidor.
-Codigo Nivel Cargo;codigo_nivel_cargo;int;Nível do cargo ocupado pelo servidor.
-Codigo Sigla Funcao Comissionada;codigo_sigla_funcao_comissionada;string;Sigla do cargo/função comissionada ocupada pelo servidor, se houver.
-Codigo Nivel Funcao Comissionada;codigo_nivel_funcao_comissionada;int;Nível do cargo/função comissionada ocupada pelo servidor, se houver.
-Nome Funcao Comissionada;nome_funcao_comissionada;string;Descrição do cargo/função comissionada ocupada pelo servidor, se houver.
-Codigo Atividade Comissionada;codigo_atividade_comissionada;int;Código da atividade do cargo/função comissionada exercida pelo servidor.
-Nome Atividade Comissionada;nome_atividade_comissionada;string;Descrição da atividade do cargo/função comissionada exercida pelo servidor, se houver.
-Codigo Opcao Parcial;codigo_opcao_parcial;string;Se servidor ocupante de cargo efetivo e de função comissionada, indica se optou pela remuneração do cargo efetivo, do posto ou graduação, ou do emprego, acrescida do percentual de 60% (sessenta por cento) do respectivo cargo em comissão.
-Codigo Unidade Organizacional Lotacao;codigo_unidade_organizacional_lotacao;bigint;Código da unidade organizacional onde o servidor está lotado.
-Nome Unidade Organizacional Lotacao;nome_unidade_organizacional_lotacao;string;Nome da unidade organizacional onde o servidor está lotado.
-Codigo Orgao Lotacao;codigo_orgao_lotacao;int;Código do órgão onde o servidor está lotado.
-Nome Orgao Lotacao;nome_orgao_lotacao;string;Nome do órgão onde o servidor está lotado.
-Codigo Orgao Superior Lotacao;codigo_orgao_superior_lotacao;int;Código do órgão superior* onde o servidor está lotado.
-Nome Orgao Superior Lotacao;nome_orgao_superior_lotacao;string;Nome do órgão superior* onde o servidor está lotado.
-Codigo Unidade Organizacional Exercicio;codigo_unidade_organizacional_exercicio;bigint;Código da unidade organizacional onde o servidor está em exercício.
-Nome Unidade Organizacional Exercicio;nome_unidade_organizacional_exercicio;string;Nome da unidade organizacional onde o servidor está em exercício.
-Codigo Orgao Exercicio;codigo_orgao_exercicio;int;Código do órgão onde o servidor está em exercício.
-Nome Orgao Exercicio;nome_orgao_exercicio;string;Nome do órgão onde o servidor está em exercício.
-Codigo Orgao Superior Exercicio;codigo_orgao_superior_exercicio;string;Código do órgão superior* onde o servidor está em exercício.
-Nome Orgao Superior Exercicio;nome_orgao_superior_exercicio;string;Nome do órgão superior* onde o servidor está em exercício.
-Codigo Tipo Vinculo;codigo_tipo_vinculo;int;1 - Função ou Cargo de Confiança, 2 - Cargo/Emprego, 3 - Outras situações, 4 - Militar.
-Nome Tipo Vinculo;nome_tipo_vinculo;string;Descrição dos tipos de vínculo.
-Nome Situacao Vinculo;nome_situacao_vinculo;string;Situação do vínculo do servidor com o órgão de lotação e/ou de exercício. - Exemplos: requisitado, cedido, nomeado cargo em comissão, contrato temporário.
-Data Inicio Afastamento;data_inicio_afastamento;date;Data de início do afastamento do servidor, em caso de afastamento.
-Data Termino Afastamento;data_termino_afastamento;date;Data de término do afastamento do servidor, em caso de afastamento.
-Nome Regime Juridico;nome_regime_juridico;string;Regime Jurídico do Servidor. Exemplos: Regime Jurídico Único, Consolidação das Leis do Trabalho, Contrato Temporário, Médico Residente.
-Nome Jornada Trabalho;nome_jornada_trabalho;string;Jornada semanal de trabalho do servidor.
-Data Ingresso Cargo Funcao;data_ingresso_cargo_funcao;date;Data de ingresso do servidor no cargo ou função.
-Data Ingresso Orgao;data_ingresso_orgao;date;Data de ingresso do servidor no órgão.
-Nome Documento Ingresso Servico Publico;nome_documento_ingresso_servico_publico;string;Documento de ingresso do servidor no serviço público.
-Data Diploma Ingresso Servico Publico;data_diploma_ingresso_servico_publico;date;Data do diploma de ingresso do servidor no serviço público.
-Codigo Diploma Ingresso Orgao;codigo_diploma_ingresso_orgao;string;Diploma de ingresso do servidor no órgão.
-Codigo Diploma Ingresso Servico Publico;codigo_diploma_ingresso_servico_publico;string;Diploma de ingresso do servidor no serviço público.
-Sigla Unidade Federacao Exercicio;sigla_unidade_federacao_exercicio;string;UF de exercício do servidor. 
-Ano Mes;ano_mes;int;Ano e mês de referência dos dados.
+ ;Nome Lógico;Nome Físico;Tipo de Dado;Descrição
+ PK;Numero CPF;numero_cpf;string;CPF (com máscara) do servidor.
+ ;Identificador Pessoa;identificador_pessoa;int;Número que identifica unicamente um servidor.
+ ;Nome Pessoa;nome_pessoa;string;Nome completo do servidor.
+ ;Numero Matricula;numero_matricula;string;Matrícula (com máscara) do servidor.
+ ;Nome Cargo;nome_cargo;string;Descrição do cargo ocupado pelo servidor.
+ ;Codigo Classe Cargo;codigo_classe_cargo;string;	Classe do cargo ocupado pelo servidor.
+ ;Codigo Padrao Cargo;codigo_padrao_cargo;string;Padrão do cargo ocupado pelo servidor.
+ ;Codigo Nivel Cargo;codigo_nivel_cargo;int;Nível do cargo ocupado pelo servidor.
+ ;Codigo Sigla Funcao Comissionada;codigo_sigla_funcao_comissionada;string;Sigla do cargo/função comissionada ocupada pelo servidor, se houver.
+ ;Codigo Nivel Funcao Comissionada;codigo_nivel_funcao_comissionada;int;Nível do cargo/função comissionada ocupada pelo servidor, se houver.
+ ;Nome Funcao Comissionada;nome_funcao_comissionada;string;Descrição do cargo/função comissionada ocupada pelo servidor, se houver.
+ ;Codigo Atividade Comissionada;codigo_atividade_comissionada;int;Código da atividade do cargo/função comissionada exercida pelo servidor.
+ ;Nome Atividade Comissionada;nome_atividade_comissionada;string;Descrição da atividade do cargo/função comissionada exercida pelo servidor, se houver.
+ ;Codigo Opcao Parcial;codigo_opcao_parcial;string;Se servidor ocupante de cargo efetivo e de função comissionada, indica se optou pela remuneração do cargo efetivo, do posto ou graduação, ou do emprego, acrescida do percentual de 60% (sessenta por cento) do respectivo cargo em comissão.
+ ;Codigo Unidade Organizacional Lotacao;codigo_unidade_organizacional_lotacao;bigint;Código da unidade organizacional onde o servidor está lotado.
+ ;Nome Unidade Organizacional Lotacao;nome_unidade_organizacional_lotacao;string;Nome da unidade organizacional onde o servidor está lotado.
+ ;Codigo Orgao Lotacao;codigo_orgao_lotacao;int;Código do órgão onde o servidor está lotado.
+ ;Nome Orgao Lotacao;nome_orgao_lotacao;string;Nome do órgão onde o servidor está lotado.
+ ;Codigo Orgao Superior Lotacao;codigo_orgao_superior_lotacao;int;Código do órgão superior* onde o servidor está lotado.
+ ;Nome Orgao Superior Lotacao;nome_orgao_superior_lotacao;string;Nome do órgão superior* onde o servidor está lotado.
+ ;Codigo Unidade Organizacional Exercicio;codigo_unidade_organizacional_exercicio;bigint;Código da unidade organizacional onde o servidor está em exercício.
+ ;Nome Unidade Organizacional Exercicio;nome_unidade_organizacional_exercicio;string;Nome da unidade organizacional onde o servidor está em exercício.
+ ;Codigo Orgao Exercicio;codigo_orgao_exercicio;int;Código do órgão onde o servidor está em exercício.
+ ;Nome Orgao Exercicio;nome_orgao_exercicio;string;Nome do órgão onde o servidor está em exercício.
+ ;Codigo Orgao Superior Exercicio;codigo_orgao_superior_exercicio;string;Código do órgão superior* onde o servidor está em exercício.
+ ;Nome Orgao Superior Exercicio;nome_orgao_superior_exercicio;string;Nome do órgão superior* onde o servidor está em exercício.
+ ;Codigo Tipo Vinculo;codigo_tipo_vinculo;int;1 - Função ou Cargo de Confiança, 2 - Cargo/Emprego, 3 - Outras situações, 4 - Militar.
+ ;Nome Tipo Vinculo;nome_tipo_vinculo;string;Descrição dos tipos de vínculo.
+ ;Nome Situacao Vinculo;nome_situacao_vinculo;string;Situação do vínculo do servidor com o órgão de lotação e/ou de exercício. - Exemplos: requisitado, cedido, nomeado cargo em comissão, contrato temporário.
+ ;Data Inicio Afastamento;data_inicio_afastamento;date;Data de início do afastamento do servidor, em caso de afastamento.
+ ;Data Termino Afastamento;data_termino_afastamento;date;Data de término do afastamento do servidor, em caso de afastamento.
+ ;Nome Regime Juridico;nome_regime_juridico;string;Regime Jurídico do Servidor. Exemplos: Regime Jurídico Único, Consolidação das Leis do Trabalho, Contrato Temporário, Médico Residente.
+ ;Nome Jornada Trabalho;nome_jornada_trabalho;string;Jornada semanal de trabalho do servidor.
+ ;Data Ingresso Cargo Funcao;data_ingresso_cargo_funcao;date;Data de ingresso do servidor no cargo ou função.
+ ;Data Ingresso Orgao;data_ingresso_orgao;date;Data de ingresso do servidor no órgão.
+ ;Nome Documento Ingresso Servico Publico;nome_documento_ingresso_servico_publico;string;Documento de ingresso do servidor no serviço público.
+ ;Data Diploma Ingresso Servico Publico;data_diploma_ingresso_servico_publico;date;Data do diploma de ingresso do servidor no serviço público.
+ ;Codigo Diploma Ingresso Orgao;codigo_diploma_ingresso_orgao;string;Diploma de ingresso do servidor no órgão.
+ ;Codigo Diploma Ingresso Servico Publico;codigo_diploma_ingresso_servico_publico;string;Diploma de ingresso do servidor no serviço público.
+ ;Sigla Unidade Federacao Exercicio;sigla_unidade_federacao_exercicio;string;UF de exercício do servidor. 
+ ;Ano Mes;ano_mes;int;Ano e mês de referência dos dados.
