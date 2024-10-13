@@ -1,2 +1,4 @@
-pandas==2.2.0
-streamlit==1.30.0
+pandas
+streamlit==1.39.0
+numpy
+ipykernel
