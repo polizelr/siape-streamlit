@@ -1,27 +1,27 @@
-Nome físico;Data Type;Descrição
-identificador_pessoa;int;Número que identifica unicamente um servidor, aposentado ou pensionista no conjunto de arquivos.
-nome_pessoa;string;Nome completo do aposentado ou militar da reserva/reforma.
-numero_cpf;string;CPF (com máscara) do aposentado ou militar da reserva/reforma.
-numero_matricula;string;Matrícula (com máscara) do aposentado ou militar da reserva/reforma.
-codigo_tipo_aposentadoria;int;Código do Tipo de Aposentadoria. Exemplos: 1 - voluntária, 2 - compulsória, 3 - invalidez.
-nome_tipo_aposentadoria;string;Descrição do Tipo de Aposentadoria.
-data_aposentadoria;date;Data da aposentadoria (civis) ou de início da reserva/reforma (militares).
-nome_cargo;string;Descrição do cargo ocupado do inativo quando em atividade.
-codigo_unidade_organizacional_lotacao;bigint;Código da unidade organizacional onde o inativo era lotado quando em atividade.
-nome_unidade_organizacional_lotacao;string;Nome da unidade organizacional onde o inativo era lotado quando em atividade.
-codigo_orgao_lotacao;int;Código do órgão onde o inativo era lotado quando em atividade.
-nome_orgao_lotacao;string;Nome do órgão onde o inativo era lotado quando em atividade.
-codigo_orgao_superior_lotacao;int;Código do órgão superior* onde o inativo era lotado quando em atividade.
-nome_orgao_superior_lotacao;string;Nome do órgão superior* onde o inativo era lotado quando em atividade.
-codigo_tipo_vinculo;int;5 - Aposentado (civil), 6 - Reserva/Reforma (Militar)
-nome_tipo_vinculo;string;Descrição dos tipos de vínculo.
-nome_situacao_vinculo;string;Situação do vínculo do inativo indicando, para os Militares, se Reserva ou Reforma.
-nome_regime_juridico;string;Regime Jurídico do inativo quando em atividade. Exemplos: Regime Jurídico Único, Consolidação das Leis do Trabalho, Contrato Temporário, Médico Residente.
-nome_jornada_trabalho;string;Jornada semanal de trabalho do inativo quando em atividade.
-data_ingresso_cargo_funcao;date;Data de ingresso do inativo no cargo ou função da atividade.
-data_ingresso_orgao;date;Data de ingresso do inativo no órgão.
-nome_documento_ingresso_servico_publico;string;Documento de ingresso do inativo no serviço público.
-data_diploma_ingresso_servico_publico;date;Data do diploma de ingresso do inativo no serviço público.
-codigo_diploma_ingresso_orgao;string;Diploma de ingresso do inativo no órgão.
-codigo_diploma_ingresso_servico_publico;string;Diploma de ingresso do inativo no serviço público.
-anomes;int;Ano e mês de referência dos dados.
+Nome Lógico;Nome Físico;Tipo de Dado;Descrição
+Identificador Pessoa;identificador_pessoa;int;Número que identifica unicamente o servidor inativo.
+Nome Pessoa;nome_pessoa;string;Nome completo do aposentado ou militar da reserva/reforma.
+Numero CPF;numero_cpf;string;CPF (com máscara) do aposentado ou militar da reserva/reforma.
+Numero Matricula;numero_matricula;string;Matrícula (com máscara) do aposentado ou militar da reserva/reforma.
+Codigo Tipo Aposentadoria;codigo_tipo_aposentadoria;int;Código do Tipo de Aposentadoria. Exemplos: 1 - voluntária, 2 - compulsória, 3 - invalidez.
+Nome Tipo Aposentadoria;nome_tipo_aposentadoria;string;Descrição do Tipo de Aposentadoria.
+Data Aposentadoria;data_aposentadoria;date;Data da aposentadoria (civis) ou de início da reserva/reforma (militares).
+Nome Cargo;nome_cargo;string;Descrição do cargo ocupado do inativo quando em atividade.
+Codigo Unidade Organizacional Lotacao;codigo_unidade_organizacional_lotacao;bigint;Código da unidade organizacional onde o inativo era lotado quando em atividade.
+Nome Unidade Organizacional Lotacao;nome_unidade_organizacional_lotacao;string;Nome da unidade organizacional onde o inativo era lotado quando em atividade.
+Codigo Orgao Lotacao;codigo_orgao_lotacao;int;Código do órgão onde o inativo era lotado quando em atividade.
+Nome Orgao Lotacao;nome_orgao_lotacao;string;Nome do órgão onde o inativo era lotado quando em atividade.
+Codigo Orgao Superior Lotacao;codigo_orgao_superior_lotacao;int;Código do órgão superior onde o inativo era lotado quando em atividade.
+Nome Orgao Superior Lotacao;nome_orgao_superior_lotacao;string;Nome do órgão superior onde o inativo era lotado quando em atividade.
+Codigo Tipo Vinculo;codigo_tipo_vinculo;int;5 - Aposentado (civil), 6 - Reserva/Reforma (Militar)
+Nome Tipo Vinculo;nome_tipo_vinculo;string;Descrição dos tipos de vínculo.
+Nome Situacao Vinculo;nome_situacao_vinculo;string;Situação do vínculo do inativo indicando, para os Militares, se Reserva ou Reforma.
+Nome Regime Juridico;nome_regime_juridico;string;Regime Jurídico do inativo quando em atividade. Exemplos: Regime Jurídico Único, Consolidação das Leis do Trabalho, Contrato Temporário, Médico Residente.
+Nome Jornada Trabalho;nome_jornada_trabalho;string;Jornada semanal de trabalho do inativo quando em atividade.
+Data Ingresso Cargo Funcao;data_ingresso_cargo_funcao;date;Data de ingresso do inativo no cargo ou função da atividade.
+Data Ingresso Orgao;data_ingresso_orgao;date;Data de ingresso do inativo no órgão.
+Nome Documento Ingresso Servico Publico;nome_documento_ingresso_servico_publico;string;Documento de ingresso do inativo no serviço público.
+Data Diploma Ingresso Servico Publico;data_diploma_ingresso_servico_publico;date;Data do diploma de ingresso do inativo no serviço público.
+Codigo Diploma Ingresso Orgao;codigo_diploma_ingresso_orgao;string;Diploma de ingresso do inativo no órgão.
+Codigo Diploma Ingresso Servico Publico;codigo_diploma_ingresso_servico_publico;string;Diploma de ingresso do inativo no serviço público.
+Ano Mes;ano_mes;int;Ano e mês de referência dos dados.

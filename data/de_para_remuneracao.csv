@@ -1,0 +1,22 @@
+Nome Lógico;Nome Físico;Tipo de Dado;Descrição
+Identificador Pessoa;identificador_pessoa;int;Número que identifica unicamente o servidor, aposentado ou pensionista.
+Numero CPF;numero_cpf;string;CPF (com máscara) do servidor, aposentado ou pensionista.
+Nome Pessoa;nome_pessoa;string;Nome completo do servidor, aposentado ou pensionista.
+Valor Remuneracao Basica Bruta;valor_remuneracao_basica_bruta;decimal(20,2);Remuneração básica bruta do servidor em reais.
+Valor Deducao Abate Teto;valor_deducao_abate_teto;decimal(20,2);Abate teto – Valor deduzido da remuneração básica bruta, quando esta ultrapassa o teto constitucional, nos termos da legislação pertinente.
+Valor Gratificacao Natalina;valor_gratificacao_natalina;decimal(20,2);Parcelas da Gratificação Natalina (13º) pagas em determinados meses ao servidor e ao militar.
+Valor Deducao Abate Teto Gratificacao Natalina;valor_deducao_abate_teto_gratificacao_natalina;decimal(20,2);Abate teto – Valor deduzido da Gratificação Natalina, proporcional à redução de Abate teto da Remuneração Básica Bruta.
+Valor Adicional Ferias;valor_adicional_ferias;decimal(20,2);Adicional correspondente a 1/3 (um terço) da remuneração, pago ao servidor e ao militar por ocasião das férias.
+Valor Remuneracao Eventual;valor_remuneracao_eventual;decimal(20,2);Valores pagos em decorrência de acertos de meses anteriores, exercícios anteriores ou decisões judiciais (estes valores não compõem a base de cálculo do teto constitucional).
+Valor Deducao IRRF;valor_deducao_irrf;decimal(20,2);Imposto de Renda Retido na Fonte (IRRF), nos termos da legislação pertinente.
+Valor Deducao Contribuicao Previdenciaria;valor_deducao_contribuicao_previdenciaria;decimal(20,2);Contribuição Previdenciária obrigatória, nos termos da legislação pertinente.
+Valor Deducao Adiantamento;valor_deducao_adiantamento;decimal(20,2);Referem-se ao adiantamento do adicional natalino, ao adiantamento de férias, ou outro acerto de pagamento, excluídos os descontos pessoais, tais como pensão alimentícia, empréstimos, planos de saúde e outros.
+Valor Deducao Pensao Militar;valor_deducao_pensao_militar;decimal(20,2);Pensão Militar - desconto obrigatório previsto no Art. 15 da MP no 2.215 - 10, de 2001, exclusivamente para Militares das Forças Armadas.
+Valor Deducao Fundo Saude;valor_deducao_fundo_saude;decimal(20,2);Fundo de Saúde - desconto obrigatório para a assistência médico - hospitalar e social do militar, previsto no Art. 15 da MP no 2.215 - 10, de 2001.
+Valor Deducao Taxa Ocupacao Imovel Funcional;valor_deducao_taxa_ocupacao_imovel_funcional;decimal(20,2);Taxa descontada do servidor por ocupar imóvel funcional, em reais.
+Valor Remuneracao Apos Deducao Obrigatoria;valor_remuneracao_apos_deducao_obrigatoria;decimal(20,2);Valor obtido pela soma das remunerações básica e eventual, descontados o abate teto, as deduções obrigatórias e demais deduções.
+Valor Verba Indenizatoria RH Civil;valor_verba_indenizatoria_rh_civil;decimal(20,2);São parcelas indenizatórias não enquadradas nos itens anteriores, tais como: auxílio natalidade, auxílio alimentação, auxílio bolsas de estudos, indenização de férias, entre outras.
+Valor Verba Indenizatoria RH Militar;valor_verba_indenizatoria_rh_militar;decimal(20,2);São parcelas indenizatórias não enquadradas nos itens anteriores, tais como: auxílio natalidade, auxílio alimentação, auxílio bolsas de estudos, indenização de férias e aviso prévio, entre outros.
+Valor Verba Indenizatoria Desligamento Voluntario;valor_verba_indenizatoria_desligamento_voluntario;decimal(20,2);Verbas indenizatórias pagas em virtude de adesão do servidor ao Programa de Desligamento Voluntário instituído pela MPV 792/2017, se houver.
+Valor Total Verba Indenizatoria;valor_total_verba_indenizatoria;decimal(20,2);Soma das Verbas Indenizatórias pagas em Real.
+Ano Mes;ano_mes;int;Ano e mês de referência dos dados.
