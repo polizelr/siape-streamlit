@@ -1,0 +1,31 @@
+Nome físico;Data Type;Descrição;
+identificador_pessoa;int;Número que identifica unicamente um servidor, aposentado ou pensionista no conjunto de arquivos.
+nome_pessoa;string;Nome completo do pensionista.
+numero_cpf;string;CPF (com máscara) do pensionista.
+numero_matricula;string;Matrícula (com máscara) do pensionista.
+numero_cpf_representante_legal;string;CPF (com máscara) de eventual representante legal do pensionista, se houver.
+nome_representante_legal;string;Nome completo de eventual representante legal pensionista, se houver.
+numero_cpf_instituidor_pensao;string;CPF (com máscara) do instituidor da pensão do pensionista.
+nome_instituidor_pensao;string;Nome completo do instituidor da pensão do pensionista.
+codigo_tipo_pensao;int;Código do Tipo de Pensão. 
+nome_tipo_pensao;string;Descrição do Tipo de Pensão. Exemplos: (Ex) conjuge / (Ex) companheiro (a) / Viuvo (a), Filho (a) / Menor sob guarda / Enteado (a).
+data_inicio_pensao;date;Data de início da pensão.
+nome_cargo_instituidor_pensao;string;Descrição do cargo ocupado pelo instituidor da pensão quando em atividade.
+codigo_unidade_organizacional_lotacao_instituidor_pensao;long;Código da unidade organizacional onde o instituidor da pensão era lotado quando em atividade.
+nome_unidade_organizacional_lotacao_instituidor_pensao;string;Nome da unidade organizacional onde o instituidor da pensão era lotado quando em atividade.
+codigo_orgao_lotacao_instituidor_pensao;int;Código do órgão onde o instituidor da pensão era lotado quando em atividade.
+nome_orgao_lotacao_instituidor_pensao;string;Nome do órgão onde o instituidor da pensão era lotado quando em atividade.
+codigo_orgao_superior_lotacao_instituidor_pensao;int;Código do órgão superior* onde o instituidor da pensão era lotado quando em atividade.
+nome_orgao_superior_lotacao_instituidor_pensao;string;Nome do órgão superior* onde o instituidor da pensão era lotado quando em atividade.
+codigo_tipo_vinculo;int;7 - Pensão Civil, 8 - Pensão Militar.
+nome_tipo_vinculo;string;Descrição dos tipos de vínculo.
+nome_situacao_vinculo;string;Situação do vínculo detalhando o seu tipo. Exemplos: BENEF.INDENIZ.ANS46, BENEF.INDENIZ.ANS47, BENEFICIARIO PENSAO.
+nome_regime_juridico_instituidor_pensao;string;Regime Jurídico do instituidor da pensão quando em atividade. Exemplos: Regime Jurídico Único, Consolidação das Leis do Trabalho, Regime Militar.
+nome_jornada_trabalho_instituidor_pensao;string;Jornada semanal de trabalho do instituidor da pensão quando em atividade.
+data_ingresso_cargo_funcao_instituidor_pensao;date;Data de ingresso do instituidor da pensão no cargo ou função da atividade.
+data_ingresso_orgao_instituidor_pensao;date;Data de ingresso do instituidor da pensão no órgão.
+nome_documento_ingresso_servico_publico_instituidor_pensao;string;Documento de ingresso do instituidor da pensão no serviço público.
+data_diploma_ingresso_servico_publico_instituidor_pensao;date;Data do diploma de ingresso do instituidor da pensão no serviço público.
+codigo_diploma_ingresso_orgao_instituidor_pensao;string;Diploma de ingresso do instituidor da pensão no órgão.
+codigo_diploma_ingresso_servico_publico_instituidor_pensao;string;Diploma de ingresso do instituidor da pensão no serviço público.
+anomes;int;Ano e mês de referência dos dados.
